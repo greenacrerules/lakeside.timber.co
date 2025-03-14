@@ -1,0 +1,341 @@
+@font-face{
+    font-family: Papyrus;
+    src: url(fonts/papyrus-font-1741722052-0/papyrus.ttf);
+}
+
+@font-face{
+    font-family: Quicksand;
+    src: url(fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+html {
+    background-color: black;
+}
+body > header > nav > a > img {
+    width: auto;
+    height: auto;
+    max-width: 102%;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+body > header > nav > ol > li {
+    list-style-type: none;
+    float: right;
+    width: 15%;
+    text-align: center;
+}
+
+body > header > nav > ol > li > a {
+    font-family: Papyrus, sans-serif;
+    background-color: rgb(180, 168, 168);
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    background-color: rgb(92, 84, 84);
+    color: white;
+}
+
+body > footer {
+    margin-top: 5%;
+    text-align: center;
+    margin-left: -8px;
+    width: 105%;
+    margin-bottom: -10px;
+    background-color: #fff;
+    color: black;
+ }
+
+ section#mStatement > h3{
+    padding-top: 10%;
+    font-size: xx-large;
+    font-family: Papyrus, sans-serif;
+    
+ }
+
+ section#mStatement {
+    color: rgb(180, 168, 168);
+ }
+
+ section#mStatement > p{
+    font-size: large;
+    font-family: Quicksand, sans-serif;
+ }
+
+ section#mStatement > img{
+    float: right;
+    width: 40%;
+    max-width: 350px;
+    min-width: 200px;
+    margin-top: -20px;
+    padding-left: 15px;
+    border-radius: 25%;
+ }
+
+ section#coreServices > h2{
+    color: rgb(180, 168, 168);
+    padding-top: 25px;
+    font-size: x-large;
+    font-family: Papyrus, sans-serif;
+ }
+
+ section#coreServices > ol{
+    color: rgb(180, 168, 168);
+    font-size: large;
+    font-family: Quicksand, sans-serif;
+}
+
+ section#coreServices > ol > li{
+    list-style-type: square;
+}
+
+section#compAdv > h2{
+    color: rgb(180, 168, 168);
+    padding-top: 25px;
+    font-size: x-large;
+    font-family: Papyrus, sans-serif;
+ }
+
+ section#compAdv > ol > li{
+    list-style-type: square;
+}
+
+section#compAdv > ol {
+    color: rgb(180, 168, 168);
+    font-size: large;
+    font-family: Quicksand, sans-serif;
+}
+
+ h2{
+    color: rgb(180, 168, 168);
+    padding-top: 25px;
+    font-size: x-large;
+    font-family: Papyrus, sans-serif;
+}
+
+section#projects {
+    height: 370px;
+    margin: 10px;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    outline: 2px solid silver;
+    overflow: auto;
+ }
+
+ section#projects > div {
+    width: 300px;
+    height: 330px;
+    position: absolute;
+ }
+
+ div > img{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15%;
+    display: black;
+    width: 300px;
+    height: 300px;
+ }
+
+div#i1 {left: 0px;}
+div#i2 {left: 310px;}
+div#i3 {left: 620px;}
+div#i4 {left: 930px;}
+div#i5 {left: 1240px;}
+div#i6 {left: 1550px;}
+div#i7 {left: 1860px;}
+div#i8 {left: 2170px;}
+div#i9 {left: 2480px;}
+div#i10 {left: 2790px;}
+
+section#aboutUs > h3{
+    color: rgb(180, 168, 168);
+    padding-top: 10%;
+    font-size: xx-large;
+    font-family: Papyrus, sans-serif;
+}
+
+section#aboutUs > p{
+    color: rgb(180, 168, 168);
+    font-size: large;
+    font-family: Quicksand, sans-serif;
+}
+
+section#aboutUs > h2{
+    color: rgb(180, 168, 168);
+    padding-top: 25px;
+    font-size: x-large;
+    font-family: Papyrus, sans-serif;
+}
+
+section#aboutUs > blockquote{
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    border: 2px solid rgb(203, 173, 0);
+    background-color: rgb(180, 168, 168);
+    color: black;
+    font-size: large;
+    font-family: Quicksand, sans-serif;
+    box-sizing: border-box;
+}
+
+img#shelley{
+    float: right;
+    width: 40%;
+    max-width: 150px;
+    min-width: 200px;
+    margin-top: -80px;
+    padding-left: 15px;
+    border-radius: 25%;
+}
+
+img#cait{
+    float: right;
+    width: 40%;
+    max-width: 150px;
+    min-width: 280px;
+    margin-top: -10px;
+    padding-left: 15px;
+    border-radius: 25%;
+}
+
+.name{
+    font-weight: bold;
+    text-align: right;
+}
+
+section#aboutUs > blockquote::before{
+    content: "\201c";
+    font-size: 50px;
+
+}
+
+section#closing > h3{
+    color: rgb(180, 168, 168);
+    font-size: xx-large;
+    font-family: Papyrus, sans-serif;
+}
+
+section#closing > p{
+    color: rgb(180, 168, 168);
+    font-size: large;
+    font-family: Quicksand, sans-serif;
+}
+
+section#closing > p2{
+    float: right;
+    color: rgb(180, 168, 168);
+    font-size: large;
+    font-family: Quicksand, sans-serif;
+}
+
+section#closing > p3{
+    float: center;
+    color: rgb(180, 168, 168);
+    font-size: large;
+    font-family: Quicksand, sans-serif;
+}
+
+.contact{
+    color: rgb(180, 168, 168);
+}
+
+.contact{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-left-title h2{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: Papyrus, sans-serif;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr{
+    border: none;
+    width: 300px;
+    height: 5px;
+    background-color: rgb(180, 168, 168);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus{
+    border: 2px solid gold;
+}
+
+.contact-inputs::placeholder{
+    color: black;
+}
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-family: Papyrus, sans-serif;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+}
+
+.contact-right img{
+    width: 500px;
+    padding-left: 310px;
+}
+
+@media (max-width:400px) {
+    img#shelley{
+        float: left;
+        margin-top: 0px;
+    }
+    body > header > nav > a > img {
+        width: 150%;
+        max-width: 450px;
+    }
+    body > header > nav > ol > li {
+        list-style-type: none;
+        float: right;
+        width: 25%;
+        text-align: center;
+    }
+    .contact-inputs{
+        width: 80vw;
+    }
+    .contact-right{
+        display: none;
+    }
+}
